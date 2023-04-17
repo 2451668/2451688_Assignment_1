@@ -9,6 +9,8 @@
 .container{
     width: 100%;
     height: 100vh;
+    /*overflow-y: scroll;*/
+    /*scroll-snap-type: y mandatory;*/
 }
 .slides{
     width: 100%;
@@ -17,6 +19,36 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    color: #000000;
+    color: #fff;
+    
+    /*scroll-snap-align: start;*?*/
 }
+
+.slides h2{
+    font-size: 70px;
+    font-weight: 600px;
+    max-width: 500px;
+}
+
+.hp{
+    background: linear-gradient(45deg, #4f4080, #9553ff);
+}
+.bl{
+    background: linear-gradient(45deg, #407180, #53f9ff);
+}
+.de{
+    background: linear-gradient(45deg, #9084b9, #28277a);
+}
+.ey{
+    background: linear-gradient(45deg, #4f4080, #9553ff);
+}
+.pt{
+    background: linear-gradient(45deg, #4f4080, #9553ff);
+}
+/*.background-image{
+    background-image: url('./header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}*/
 /*.slides*/
